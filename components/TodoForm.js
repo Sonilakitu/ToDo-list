@@ -10,6 +10,7 @@ function TodoForm(props) {
     inputRef.current.focus();
   });
 
+  
   const handleChange = (e) => {
     setInput(e.target.value);
   };
